@@ -10,9 +10,9 @@ class ApplicationController < Sinatra::Base
   end
 
   # Add your post route and action be
-  post '/imagefinal' do
+  post '/finalimage' do
     @link = params[:link]
-    erb :imagefinal
+    erb :finalimage
     # @fav_food = params[:fav_food]
     # "My name is #{@name} and I love #{@fav_food}."
   end
